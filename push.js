@@ -8,11 +8,9 @@ let vapidkeys = {
 push.setVapidDetails('mailto:sds@1.co.uk',vapidkeys.publicKey, vapidkeys.privateKey)
 
 
-let sub = {
-    endpoint:
-    "https://fcm.googleapis.com/fcm/send/fLqJKTzr3AU:APA91bFG--8TmzbOydYmLNh1P3Sbpjc7QPbQgGDOtrGcEr7rEkwfdQDuCir0wfBRuRTe2YWVsfqdigVXoSXbmVxyjnlgQFh6xxzpKmXIDegu5wVxoYglLEEV2h8Pq_7suE00rVAAOMGS",
-    expirationTime:null,
-    keys:{
-        p256dh:"BMmaeFYS5Qyww3sdm-u8yOmuA5QnSb600kj2559WO_7IUwQA8fdKW1k4HPO1MdFIAg0nrsOxN9VOlK7U46FXwoE",
-        auth:"V4Uwnp_iXFVMB6TbB05q0Q"}};
-console.log(vapidkeys);
+let sub = {endpoint:"https://fcm.googleapis.com/fcm/send/fLqJKTzr3AU:APA91bFG--8TmzbOydYmLNh1P3Sbpjc7QPbQgGDOtrGcEr7rEkwfdQDuCir0wfBRuRTe2YWVsfqdigVXoSXbmVxyjnlgQFh6xxzpKmXIDegu5wVxoYglLEEV2h8Pq_7suE00rVAAOMGS",
+expirationTime:null,
+keys:{
+    p256dh:"BMmaeFYS5Qyww3sdm-u8yOmuA5QnSb600kj2559WO_7IUwQA8fdKW1k4HPO1MdFIAg0nrsOxN9VOlK7U46FXwoE",
+auth:"V4Uwnp_iXFVMB6TbB05q0Q"}
+};
